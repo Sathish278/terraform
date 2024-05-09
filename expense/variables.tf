@@ -53,10 +53,14 @@ variable "allowed_cidr" {
 
 
 #r53 variables
-variable "zone_id" {
-    default = "Z08884492QFPW45HM4UQO"
-}
 
+variable "zone_id" {
+
+    default = "Z04367033JDL0STCIJ8DB"
+  
+}
 variable "domain_name" {
+
     default = "sathishreddy.online"
+  
 }
