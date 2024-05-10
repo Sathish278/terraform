@@ -19,6 +19,7 @@ data "aws_ami" "ami_id" {
     }
 }
 
-data "aws_vpc" "default" {
-    default = true
+data "aws_vpc" "test_vpc" {
+  # Remove the line vpc_id = "vpc-0e0b80b4caa3817d1"
 }
+
